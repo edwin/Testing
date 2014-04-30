@@ -5,8 +5,12 @@ import java.util.List;
 import java.util.Scanner;
 
 /**
- *
+ *<pre>
+ *  ngajarin winda cara menggunakan github
+ * </pre>
+ * 
  * @author edwin
+ * @since 30 April 2014 11:11AM
  */
 public class Main {
 
@@ -17,7 +21,7 @@ public class Main {
 
     private void start() {
         try {            
-            List<String> kartus = new ArrayList<String>();
+            List<String> kartus = new ArrayList<String>(); // sebelumnya menggunakan diamond operator
 
             System.out.print("Jumlah Kartu > ");
             Scanner scannerJumlahKartu = new Scanner(System.in);
