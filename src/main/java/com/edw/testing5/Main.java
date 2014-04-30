@@ -16,8 +16,8 @@ public class Main {
     }
 
     private void start() {
-        try {
-            List<String> kartus = new ArrayList<>();
+        try {            
+            List<String> kartus = new ArrayList<String>();
 
             System.out.print("Jumlah Kartu > ");
             Scanner scannerJumlahKartu = new Scanner(System.in);
